@@ -14,3 +14,7 @@ jobs:
      steps:
      - name: chekout code
        run: actions/checkout@v4     
+
+      - name: list directory
+        run:
+         ls -la
