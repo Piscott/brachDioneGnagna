@@ -15,6 +15,6 @@ jobs:
      - name: chekout code
        run: actions/checkout@v4     
 
-      - name: list directory
-        run:
+     - name: list directory
+       run:
          ls -la
