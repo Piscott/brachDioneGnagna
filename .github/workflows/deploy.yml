@@ -3,18 +3,18 @@ name: 'Deploy App to S3'
 #on: [push] #toutes les branches
 
 on:
-   push:
+  push:
     braches:
-      -gnagna #uniquement sur la branche main
+      - gnagna #uniquement sur la branche main
 
 
 jobs:
-   deployement: # nom
-     runs-on: ubuntou-lastest # instance temps
-     steps:
-     - name: chekout code
-       run: actions/checkout@v4     
+  deployement: # nom
+    runs-on: ubuntou-lastest # instance temps
+    steps:
+    - name: chekout code
+      uses: actions/checkout@v4     
 
-     - name: list directory
-       run:
-         ls -la
+    - name: list directory
+      run: |
+        ls -la
