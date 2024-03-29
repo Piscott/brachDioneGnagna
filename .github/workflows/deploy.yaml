@@ -15,11 +15,11 @@ on:
 
 jobs:
   deployment: # nom
-    runs-on: ubuntu-lastest # instance temporaire
+    runs-on: ubuntu-latest # instance temporaire
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      
+
     - name: List directory
       run: |
         ls -la
