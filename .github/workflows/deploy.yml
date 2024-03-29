@@ -10,7 +10,7 @@ on:
 
 jobs:
   deployement: # nom
-    runs-on: ubuntou-latest # instance temps
+    runs-on: ubuntu-latest # instance temps
     steps:
     - name: chekout code
       uses: actions/checkout@v4     
