@@ -4,7 +4,7 @@ name: 'Deploy App to S3'
 
 on:
   push:
-    braches:
+    branches:
       - gnagna #uniquement sur la branche main
 
 
