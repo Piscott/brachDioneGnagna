@@ -19,9 +19,9 @@ jobs:
       run: |
         ls -la
     -name: create new file
-      run:|
+      run: |
         touch new file.txt
 
-    -name:lister a nouveau les fichiers et dossiers
-      run:
+    -name: lister a nouveau les fichiers et dossiers
+      run: |
        ls -la
