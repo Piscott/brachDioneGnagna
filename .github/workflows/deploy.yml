@@ -18,10 +18,10 @@ jobs:
     - name: list directory
       run: |
         ls -la
-    -name: create new file
+    - name: create new file
       run: |
         touch new file.txt
 
-    -name: lister a nouveau les fichiers et dossiers
+    - name: lister a nouveau les fichiers et dossiers
       run: |
-       ls -la
+        ls -la
